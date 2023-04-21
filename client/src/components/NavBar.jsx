@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function NavBar({ onSearch, Exit }) {
   const randomId = Math.floor(Math.random() * 826);
+
   return (
     <div className="nav">
       <div>
