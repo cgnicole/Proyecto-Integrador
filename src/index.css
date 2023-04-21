@@ -1,0 +1,22 @@
+body {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+
+  background-image: url("https://raw.githubusercontent.com/Cindypsd/rickyandmorty/main/src/images/background-img.png");
+
+  margin: 0px;
+  padding: 0px;
+  background-repeat: repeat;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,54 @@
+.imgbienvenida {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  height: 350px;
+  white-space: 350px;
+}
+
+.imgbienvenida:hover {
+  transform: scale(1.1);
+  transition: transform 2s;
+}
+.margen {
+  margin-top: 20px;
+}
+.labelText {
+  padding: 1em;
+  font-weight: 600;
+  color: white;
+}
+
+.labelText2 {
+  font-weight: 600;
+  color: white;
+}
+.input-estilo {
+  background-color: #efef91;
+  border-radius: 0.4em;
+  height: 2em;
+  width: 200px;
+}
+
+.btnLog {
+  background-color: #d834b8;
+  width: 80px;
+  border-radius: 0.4em;
+  box-shadow: 0 3px 3px 0 #10b7323d, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  font-family: IBM Plex Mono;
+  font-weight: 600;
+  margin-left: 1em;
+  padding: 0.5em;
+  font-size: 15px;
+}
+.obligatoriE {
+  color: black;
+  background-color: #fefe39;
+  border-radius: 0.4em;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.5em;
+  width: 300px;
+  margin: auto;
+  display: block;
+}

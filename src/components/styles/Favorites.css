@@ -1,0 +1,38 @@
+.favorites_contener {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+.fav-card {
+  background-color: #dff251ee;
+  border-radius: 2em;
+  height: 400px;
+  margin: 1em;
+  overflow: hidden;
+  width: 320px;
+}
+
+.imgfav {
+  width: 100%;
+}
+
+.buttondelatefav {
+  font-weight: 600;
+  background-color: #f607b2;
+  width: 300px;
+  border-radius: 0.4em;
+  margin-bottom: 0.5em;
+  font-size: 15px;
+  font-family: Monaco, Consolas, "Courier New";
+  border: 0px;
+}
+.buttondelatefav:hover {
+  background-color: #ff1a1a;
+}
+
+.namefav {
+  color: black;
+}
