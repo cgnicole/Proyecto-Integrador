@@ -1,0 +1,106 @@
+.nav {
+  display: flex;
+  margin: 2px;
+  padding: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home {
+  justify-content: space-evenly;
+  font-family: "IBM Plex Mono";
+  font-weight: 600;
+  background-color: #05f762;
+  width: 80px;
+  border-radius: 0.4em;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  padding: 0.5em;
+  font-size: 15px;
+  border: 0px;
+}
+
+.home:hover {
+  background: #1888e4;
+  border-radius: 11px;
+}
+
+.about {
+  justify-content: space-evenly;
+  font-family: "IBM Plex Mono";
+  font-weight: 600;
+  background-color: #f607b2;
+  width: 80px;
+  border-radius: 0.4em;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  padding: 0.5em;
+  font-size: 15px;
+  border: 0px;
+}
+
+.about:hover {
+  background: #fac307;
+  border-radius: 11px;
+}
+
+.random {
+  justify-content: space-evenly;
+  font-family: "IBM Plex Mono";
+  font-weight: 600;
+  background-color: #ee6d17;
+  width: 80px;
+  border-radius: 0.4em;
+  border: 0px;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  padding: 0.5em;
+  font-size: 15px;
+}
+
+.random:hover {
+  background: #07ddfa;
+  border-radius: 11px;
+}
+
+.favorites {
+  justify-content: space-evenly;
+  font-family: "IBM Plex Mono";
+  font-weight: 600;
+  background-color: #07ddfa;
+  width: 80px;
+  border-radius: 0.4em;
+  border: 0px;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  padding: 0.5em;
+  font-size: 15px;
+}
+
+.favorites:hover {
+  background: #e05b5b;
+  border-radius: 11px;
+}
+
+.exit {
+  justify-content: space-evenly;
+  font-family: "IBM Plex Mono";
+  font-weight: 600;
+  background-color: #e70953;
+  width: 80px;
+  border-radius: 0.4em;
+  border: 0px;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  padding: 0.5em;
+  font-size: 15px;
+}
+
+.exit:hover {
+  background: #a95be0;
+  border-radius: 11px;
+}
+.rick {
+  display: flex;
+  width: 20em;
+}
