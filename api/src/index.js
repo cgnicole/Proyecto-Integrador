@@ -33,6 +33,7 @@ http
       .writeHead(404, { "content-type": "text/plain" })
       .end("not found");
   })
+
   .listen(3001, "localhost", () => {
-    console.log("in port http://localhost:3001");
+    console.log("in port 3001");
   });
