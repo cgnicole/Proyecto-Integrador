@@ -1,0 +1,24 @@
+.searchButton {
+  border: 0px;
+  background-color: rgb(158, 158, 158);
+  height: 2.5em;
+  width: 5em;
+  background: #dff251ee;
+  font-weight: bold;
+  font-family: "IBM Plex Mono";
+  border-radius: 0px 15px 15px 0px;
+
+  font-size: 15;
+}
+
+.searchInput {
+  border: 0px;
+  border-radius: 15px 0px 0px 15px;
+  background-color: rgb(158, 158, 158);
+  height: 2.5em;
+  background: #dff251ee;
+}
+
+.bar {
+  padding: 2em;
+}

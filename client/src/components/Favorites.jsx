@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { removeFav } from "../redux/actions";
-import "./styles/Favorites.css";
+import "../styles/Favorites.css";
 
 const Favorites = () => {
   const dispatch = useDispatch();

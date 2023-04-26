@@ -3,7 +3,8 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
-import "./styles/Detail.css";
+
+import "../styles/Detail.css";
 import { Link } from "react-router-dom";
 
 export default function Detail() {

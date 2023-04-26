@@ -1,5 +1,7 @@
 import React from "react";
-import "./styles/About.css";
+// import "./styles/About.css";
+
+import "../styles/About.css";
 import { Link } from "react-router-dom";
 
 export default function About() {
@@ -62,7 +64,7 @@ export default function About() {
           ></img>
         </a>
       </div>
-      2jhgcx zb
+
       <div className="general">
         <div className="size">
           <h3 className="dato">Status 💖</h3>

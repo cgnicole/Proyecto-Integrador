@@ -1,11 +1,10 @@
 import React from "react";
 import SearchBar from "./SearchBar";
-import "./styles/NavBar.css";
+import "../styles/NavBar.css";
 import { Link } from "react-router-dom";
 
 export default function NavBar({ onSearch, Exit }) {
   const randomId = Math.floor(Math.random() * 826);
-
   return (
     <div className="nav">
       <div>
@@ -17,7 +16,7 @@ export default function NavBar({ onSearch, Exit }) {
       </div>
 
       <button className="random" onClick={() => onSearch(randomId)}>
-        Random
+        Get random character
       </button>
 
       <Link to="/home">
@@ -31,14 +30,19 @@ export default function NavBar({ onSearch, Exit }) {
         <button className="favorites">Favorites</button>
       </Link>
 
+      <SearchBar onSearch={onSearch} />
       <button onClick={Exit} className="exit">
         Exit
       </button>
-
-      <SearchBar onSearch={onSearch} />
     </div>
   );
 }
+
+// const randomId = Math.floor(Math.random() * 826);
+
+// <button  onClick={() => onSearch(randomId)}>
+//   Random Character
+// </button>;
 
 // const randomId = Math.floor(Math.random() * 826);
 

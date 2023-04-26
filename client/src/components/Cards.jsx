@@ -1,5 +1,6 @@
 import Card from "./Card";
-import "./styles/Cards.css";
+// import "./styles/Cards.css";
+import "../styles/Cards.css";
 
 export default function Cards({ characters, onClose }) {
   return (

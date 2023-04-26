@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
+// import "./components/styles/App.js";
+import "./styles/App.css";
+
 import Cards from "./components/Cards.jsx";
 import NavBar from "./components/NavBar";
 import axios from "axios";
@@ -38,7 +40,7 @@ function App() {
   }, [access]);
 
   function onSearch(id) {
-    axios(`http://localhost:3001/rickandmorty/characters/${id}`).then(
+    axios(`https://rickandmortyapi.com/api/character/${id}`).then(
       ({ data }) => {
         if (data.name) {
           let existe = characters.find((ch) => ch.id === data.id);

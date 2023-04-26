@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import "./styles/Login.css";
+import "../styles/Login.css";
 
 const regexEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
 const regexPassword =
@@ -104,7 +104,7 @@ export default function Login({ login }) {
         {/* {Object.keys(errors).length === 0 ? ( */}
         <Link to="/home">
           <button className="btnLog" type="submit">
-            Ingresar
+            log in
           </button>
         </Link>
         {/* ) : null} */}

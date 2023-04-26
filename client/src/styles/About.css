@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+
+.about_container {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+.btn {
+  justify-content: space-evenly;
+  font-family: "IBM Plex Mono";
+  font-weight: 600;
+  background-color: #c46aa8;
+  width: 80px;
+  border-radius: 0.4em;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  padding: 0.5em;
+  font-size: 15px;
+  border: 0px;
+}
+
+.contenedor {
+  background-color: aliceblue;
+  border-radius: 20px;
+  width: 700px;
+  justify-content: center;
+  display: inline-block;
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.general {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: center;
+}
+
+.rta {
+  font-weight: 600;
+  padding: 0.3em;
+  background-color: #dff251ee;
+  border-radius: 0.5em;
+  margin-bottom: 2em;
+}
+
+.dato {
+  color: rgba(240, 19, 210, 0.896);
+  font-family: "Bungee Shade", cursive;
+}
+.size {
+  margin-right: 2em;
+}
+
+.img {
+  width: 35%;
+  border-radius: 400px;
+}
+
+.gif {
+  width: 60%;
+}
+
+.linkedin {
+  width: 70px;
+}
+
+.github {
+  width: 50px;
+}
+.insta {
+  width: 60px;
+}

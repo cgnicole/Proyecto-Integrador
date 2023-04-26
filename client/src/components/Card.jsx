@@ -1,4 +1,4 @@
-import "./styles/Card.css";
+import "../styles/Card.css";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { addFav, removeFav } from "../redux/actions";
@@ -37,22 +37,29 @@ function Card(props) {
         setIsFav(true);
       }
     });
-  }, [myFavorites]);
+  }, [myFavorites, props.id]);
 
   return (
     <div className="card">
-      <button className="closeButton" onClick={() => onClose(id)}>
-        ❌
-      </button>
-      {isFav ? (
-        <button class="fav" onClick={handleFavorite}>
-          💖
-        </button>
-      ) : (
-        <button class="fav" onClick={handleFavorite}>
-          🤍
-        </button>
-      )}
+      <div className="generalbuttons">
+        <div>
+          {isFav ? (
+            <button class="fav" onClick={handleFavorite}>
+              💖
+            </button>
+          ) : (
+            <button class="fav" onClick={handleFavorite}>
+              🤍
+            </button>
+          )}
+        </div>
+        <div>
+          {" "}
+          <button className="closeButton" onClick={() => onClose(id)}>
+            ❌
+          </button>
+        </div>
+      </div>
 
       <Link to={`/detail/${id}`} className="stylename">
         <h2 className="stylename">{name}</h2>
